@@ -37,10 +37,20 @@
     <div id="menuBtn">
         <img src="images/menu.png" id="menu">
     </div>
+
+    <!--feature-->
+    <section id="feature">
+        <div class="title-text">
+            <p>Feature</p>
+            <h1>Why Choose Us</h1>
+        </div>
+    </section>
     <script>
         var menuBtn = document.getElementById("menuBtn")
         var sideNav = document.getElementById("sideNav")
         var menu = document.getElementById("menu")
+
+        sideNav.style.right == "-250px"
 
         menuBtn.onclick = function() {
             if (sideNav.style.right == "-250px") {
@@ -52,6 +62,8 @@
             }
         }
     </script>
+
+
 </body>
 
 </html>
